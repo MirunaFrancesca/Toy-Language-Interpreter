@@ -1,0 +1,577 @@
+Id: 1
+The execution stack is:
+( int v; ( Ref(int) a; ( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) ) ) )
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+int v
+( Ref(int) a; ( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) ) )
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+int v
+( Ref(int) a; ( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) ) )
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Ref(int) a; ( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) ) )
+The table of symbols is:
+{v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Ref(int) a; ( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) ) )
+The table of symbols is:
+{v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Ref(int) a
+( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) )
+The table of symbols is:
+{v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Ref(int) a
+( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) )
+The table of symbols is:
+{v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) )
+The table of symbols is:
+{a=(0,int), v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( v=10; ( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) ) )
+The table of symbols is:
+{a=(0,int), v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+v=10
+( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) )
+The table of symbols is:
+{a=(0,int), v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+v=10
+( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) )
+The table of symbols is:
+{a=(0,int), v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) )
+The table of symbols is:
+{a=(0,int), v=10}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( new(a,22); ( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) ) )
+The table of symbols is:
+{a=(0,int), v=10}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+new(a,22)
+( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) )
+The table of symbols is:
+{a=(0,int), v=10}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+new(a,22)
+( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) )
+The table of symbols is:
+{a=(0,int), v=10}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )); ( print(v); print(readHeap( a )) ) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) ))
+( print(v); print(readHeap( a )) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Fork(( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) ))
+( print(v); print(readHeap( a )) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( print(v); print(readHeap( a )) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( print(v); print(readHeap( a )) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+( writeHeap( a, 30 ); ( v=32; Fork(( print(v); print(readHeap( a )) )) ) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+print(v)
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+writeHeap( a, 30 )
+( v=32; Fork(( print(v); print(readHeap( a )) )) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+print(v)
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+writeHeap( a, 30 )
+( v=32; Fork(( print(v); print(readHeap( a )) )) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->22) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+( v=32; Fork(( print(v); print(readHeap( a )) )) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+( v=32; Fork(( print(v); print(readHeap( a )) )) )
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+v=32
+Fork(( print(v); print(readHeap( a )) ))
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+v=32
+Fork(( print(v); print(readHeap( a )) ))
+The table of symbols is:
+{a=(1,int), v=10}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+Fork(( print(v); print(readHeap( a )) ))
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+Fork(( print(v); print(readHeap( a )) ))
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 3
+The execution stack is:
+( print(v); print(readHeap( a )) )
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 3
+The execution stack is:
+( print(v); print(readHeap( a )) )
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 3
+The execution stack is:
+print(v)
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 3
+The execution stack is:
+print(v)
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+The file table is:
+{}
+
+
+Id: 3
+The execution stack is:
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+32
+The file table is:
+{}
+
+
+Id: 3
+The execution stack is:
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+32
+The file table is:
+{}
+
+
+Id: 3
+The execution stack is:
+The table of symbols is:
+{a=(1,int), v=32}
+The heap table is:
+{(1->30) }
+The out list is:
+10
+30
+32
+30
+The file table is:
+{}
+
+

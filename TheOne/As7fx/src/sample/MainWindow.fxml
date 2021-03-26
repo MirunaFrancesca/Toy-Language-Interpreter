@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="532.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMainWindow">
+    <children>
+        <TextField fx:id="numberOfProgramStates" alignment="CENTER" layoutX="193.0" layoutY="15.0" prefHeight="38.0" prefWidth="38.0" />
+        <TableView fx:id="HeapTable" layoutX="526.0" layoutY="99.0" prefHeight="200.0" prefWidth="200.0">
+            <columns>
+                <TableColumn prefWidth="97.0" text="address">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="firstColumn" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="102.0" text="Value">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="secondColumn" />
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+        <ListView fx:id="out" layoutX="20.0" layoutY="287.0" prefHeight="190.0" prefWidth="168.0" />
+        <ListView fx:id="fileTable" layoutX="526.0" layoutY="332.0" prefHeight="147.0" prefWidth="200.0" />
+        <ListView fx:id="programStateIdentifiers" layoutX="20.0" layoutY="99.0" prefHeight="147.0" prefWidth="168.0" />
+        <TableView fx:id="symbolTable" layoutX="216.0" layoutY="99.0" prefHeight="189.0" prefWidth="274.0">
+            <columns>
+                <TableColumn prefWidth="132.0" text="variable name">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="firstColumn" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="142.39999389648438" text="Value">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="secondColumn" />
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+        <ListView fx:id="executionStack" layoutX="216.0" layoutY="332.0" prefHeight="147.0" prefWidth="274.0" />
+        <Button fx:id="runOneStep" layoutX="276.0" layoutY="7.0" mnemonicParsing="false" onAction="#handleButtonRunOneStep" prefHeight="54.0" prefWidth="192.0" text="Run One Step">
+         <font>
+            <Font name="Blackadder ITC" size="22.0" />
+         </font></Button>
+        <Button fx:id="switchToPrograms" layoutX="526.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonSwitchToPrograms" prefHeight="38.0" prefWidth="116.0" text="back">
+         <font>
+            <Font name="Curlz MT" size="18.0" />
+         </font></Button>
+      <Label layoutX="20.0" layoutY="11.0" prefHeight="38.0" prefWidth="168.0" text="No. of Program Statements:" textFill="#b023a4">
+         <font>
+            <Font name="Curlz MT" size="15.0" />
+         </font></Label>
+      <Label layoutX="216.0" layoutY="71.0" prefHeight="28.0" prefWidth="274.0" text="Symbols table:" textFill="#38cac5">
+         <font>
+            <Font name="Curlz MT" size="18.0" />
+         </font></Label>
+      <Label layoutX="20.0" layoutY="259.0" prefHeight="28.0" prefWidth="168.0" text="Output List:" textFill="#ae6de3">
+         <font>
+            <Font name="Curlz MT" size="18.0" />
+         </font></Label>
+      <Label layoutX="216.0" layoutY="304.0" prefHeight="18.0" prefWidth="274.0" text="Execution Stack:" textFill="#38cac5">
+         <font>
+            <Font name="Curlz MT" size="18.0" />
+         </font></Label>
+      <Label layoutX="526.0" layoutY="304.0" prefHeight="18.0" prefWidth="200.0" text="File Table:" textFill="#8659ba">
+         <font>
+            <Font name="Curlz MT" size="18.0" />
+         </font></Label>
+      <Label layoutX="526.0" layoutY="71.0" prefHeight="18.0" prefWidth="182.0" text="Heap Table:" textFill="#8659ba">
+         <font>
+            <Font name="Curlz MT" size="18.0" />
+         </font></Label>
+      <Label layoutX="20.0" layoutY="71.0" prefHeight="28.0" prefWidth="182.0" text="Program Statements IDs:" textFill="#ae6de3">
+         <font>
+            <Font name="Curlz MT" size="18.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

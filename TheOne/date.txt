@@ -1,0 +1,670 @@
+Id: 1
+The execution stack is:
+( int v; ( Ref(int) a; ( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) ) ) )
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+int v
+( Ref(int) a; ( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) ) )
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+int v
+( Ref(int) a; ( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) ) )
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Ref(int) a; ( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) ) )
+The table of symbols is:
+{v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Ref(int) a; ( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) ) )
+The table of symbols is:
+{v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Ref(int) a
+( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) )
+The table of symbols is:
+{v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Ref(int) a
+( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) )
+The table of symbols is:
+{v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) )
+The table of symbols is:
+{a=(0,int), v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( new(a,20); ( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) ) )
+The table of symbols is:
+{a=(0,int), v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+new(a,20)
+( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) )
+The table of symbols is:
+{a=(0,int), v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+new(a,20)
+( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) )
+The table of symbols is:
+{a=(0,int), v=0}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) )
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) )); print(readHeap( a )) )
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) ))
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+for(v= 0; v< 3; v= v+1) Fork(( print(v); v=v*readHeap( a ) ))
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( v=0; while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 ) )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( v=0; while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 ) )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+v=0
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+v=0
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Fork(( print(v); v=v*readHeap( a ) ))
+v=v+1
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Fork(( print(v); v=v*readHeap( a ) ))
+v=v+1
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+v=v+1
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+( print(v); v=v*readHeap( a ) )
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+v=v+1
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+( print(v); v=v*readHeap( a ) )
+The table of symbols is:
+{a=(1,int), v=0}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=1}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+print(v)
+v=v*readHeap( a )
+The table of symbols is:
+{a=(1,int), v=1}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=1}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+print(v)
+v=v*readHeap( a )
+The table of symbols is:
+{a=(1,int), v=1}
+The heap table is:
+{(1->20) }
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=1}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+v=v*readHeap( a )
+The table of symbols is:
+{a=(1,int), v=1}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=1}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+v=v*readHeap( a )
+The table of symbols is:
+{a=(1,int), v=1}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Fork(( print(v); v=v*readHeap( a ) ))
+v=v+1
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=20}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+The table of symbols is:
+{a=(1,int), v=20}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+Fork(( print(v); v=v*readHeap( a ) ))
+v=v+1
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=20}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+v=v+1
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=20}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+( print(v); v=v*readHeap( a ) )
+The table of symbols is:
+{a=(1,int), v=20}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+v=v+1
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=20}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+( print(v); v=v*readHeap( a ) )
+The table of symbols is:
+{a=(1,int), v=20}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=21}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+print(v)
+v=v*readHeap( a )
+The table of symbols is:
+{a=(1,int), v=21}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+while(v<3) ( Fork(( print(v); v=v*readHeap( a ) )); v=v+1 )
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=21}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+print(v)
+v=v*readHeap( a )
+The table of symbols is:
+{a=(1,int), v=21}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+print(readHeap( a ))
+The table of symbols is:
+{a=(1,int), v=21}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+21
+The file table is:
+{}
+
+
+Id: 2
+The execution stack is:
+v=v*readHeap( a )
+The table of symbols is:
+{a=(1,int), v=21}
+The heap table is:
+{(1->20) }
+The out list is:
+1
+21
+The file table is:
+{}
+
+

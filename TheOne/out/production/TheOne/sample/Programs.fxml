@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="520.0" prefWidth="725.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerPrograms">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <VBox prefHeight="443.0" prefWidth="700.0">
+         <ListView fx:id="listView" editable="true" prefHeight="389.0" prefWidth="700" />
+         <Label fx:id="label" />
+         <Button fx:id="switchToMainWindow" mnemonicParsing="false" onAction="#handleButtonSwitchToMainWindow" prefHeight="36.0" prefWidth="701.0" text="See Results of the Program Selected">
+            <font>
+               <Font name="Blackadder ITC" size="22.0" />
+            </font></Button>
+      </VBox>
+
+   </children>
+
+</GridPane>

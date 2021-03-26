@@ -1,0 +1,62 @@
+Id: 1
+The execution stack is:
+( bool a; (IF(4==false) THEN(a=true)ELSE(a=false)) )
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+bool a
+(IF(4==false) THEN(a=true)ELSE(a=false))
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+bool a
+(IF(4==false) THEN(a=true)ELSE(a=false))
+The table of symbols is:
+{}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+(IF(4==false) THEN(a=true)ELSE(a=false))
+The table of symbols is:
+{a=false}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
+Id: 1
+The execution stack is:
+(IF(4==false) THEN(a=true)ELSE(a=false))
+The table of symbols is:
+{a=false}
+The heap table is:
+{}
+The out list is:
+The file table is:
+{}
+
+
